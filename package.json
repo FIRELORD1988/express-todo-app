@@ -1,0 +1,37 @@
+{
+  "name": "express-todo-app",
+  "version": "1.0.0",
+  "description": "A basic Express.js TODO app boilerplate",
+  "main": "index.js",
+  "dependencies": {
+    "express": ">\v4.19",
+    "nodemon": ">\v12.27",
+    "supervisor": ">\v2.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'test'",
+    "build": "node build",
+    "dep": "node dep --production",
+    "lint": "esclint index.js
+ },
+  "keywords": [
+    "express",
+    "todo",
+    "boilerplate"
+  ],
+  "author": "your-github-autor",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "x_strict"
+  },
+  "botedev": {
+    "types": {
+      "eslint": {
+        "globals": {
+          "strict": "error,warning,info,critical"
+        }
+      }
+    }
+  }
+}
